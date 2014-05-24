@@ -15,7 +15,7 @@ var craig = true;
 $(document).ready(function() {
     $.get(url, function(data) {
         $('#spanner').text(data[teamNumber].points);
-        console.log('YOLO!')
+        alert('YOLO!')
     });
 });
 </script>
